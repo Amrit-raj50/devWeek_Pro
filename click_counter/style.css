@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.count {
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    min-width: 80px;
+    text-align: center;
+}
+
+.inc,
+.dec {
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+.inc {
+    background: #22c55e;
+}
+
+
+
+.dec {
+    background: #ef4444;
+}
